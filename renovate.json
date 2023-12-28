@@ -2,8 +2,8 @@
   "prHourlyLimit": 10,
   "packageRules": [
     {
-      "matchManagers": ["node", "npm"],
-      "groupName": "node+npm"
+      "matchManagers": ["nvm", "npm"],
+      "groupName": "nvm+npm"
     },
     {
       "matchDatasources": ["pypi", "git-tags", "docker"],
