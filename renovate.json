@@ -8,6 +8,17 @@
     {
       "matchDatasources": ["pypi", "git-tags", "docker"],
       "groupName": "python+docker"
+    },
+      {
+        "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchPackagePatterns": [
+        "^media/pjfr/gitlab-ci/templates.*$",
+        "^fr.pj.pom:pom-ciweb$",
+        "^fr.pj.socletechnique:.*$",
+        "^fr.pj.socle.tests.*:socle-tests.*$"
+      ],
+      "groupName": "GRP gitlabci/pom_ciweb/socle_tec/socle_tests"
     }
+
   ]
 }
