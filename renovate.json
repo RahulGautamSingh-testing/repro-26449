@@ -1,10 +1,6 @@
 {
   "prHourlyLimit": 10,
   "packageRules": [
-    {
-      "matchManagers": ["nvm", "npm"],
-      "groupName": "nvm+npm"
-    },
       {
       "matchPackagePatterns": [
         "^media//pjfr//gitlab-ci//templates.*$",
