@@ -5,10 +5,6 @@
       "matchManagers": ["nvm", "npm"],
       "groupName": "nvm+npm"
     },
-    {
-      "matchDatasources": ["pypi", "git-tags", "docker"],
-      "groupName": "python+docker"
-    },
       {
       "matchPackagePatterns": [
         "^media/pjfr/gitlab-ci/templates.*$"
