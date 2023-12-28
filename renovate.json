@@ -8,7 +8,7 @@
       {
       "matchPackagePatterns": [
         "^media//pjfr//gitlab-ci//templates.*$",
-        "package.json"
+        "^package\\.json$"
       ],
       "groupName": "GRP"
     }
